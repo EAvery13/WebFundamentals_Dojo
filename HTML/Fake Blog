@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Amazing Fake Blog</title>
+  </head>
+  <body>
+    <h1>Crazy Cat Lady</h1>
+    <img src = "radio-volk.de/pictures/Crazy_Cat_Lady_2.jpg" alt = "Crazy Cat Lady">
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam,
+      sapien nec vulputate varius, odio metus tincidunt ante, eu dictum leo
+      ligula vitae massa. Vivamus lobortis ultricies tellus, quis sodales sem
+      tincidunt sit amet.<br> Aliquam lacinia lacinia enim, id eleifend sapien
+      sagittis ornare. In id efficitur ante. Phasellus et cursus tellus. Donec
+      egestas porttitor mauris, sed varius elit. Aliquam at metus ac libero
+      faucibus tempus. Pellentesque egestas elementum<br> massa, id tincidunt libero
+      cursus sed. Vivamus blandit, est eu tincidunt lacinia, sapien mi ullamcorper
+      lorem, vitae ullamcorper tortor nunc in odio. Suspendisse id facilisis
+      magna, eget sodales quam. Phasellus venenatis id lorem <br>eget molestie. Fusce
+      a purus vel nisl scelerisque malesuada. Phasellus id dolor at quam varius
+      feugiat nec eget arcu. Integer eu sapien et est fermentum fermentum. Donec
+      ac orci volutpat, tempus odio nec, efficitur nibh.
+    </p>
+
+    <div>
+      <table>
+        <caption>All About My Cats</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cheeky</td>
+            <td>Ragdoll</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Snichers</td>
+            <td>Birman</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Smuffins</td>
+            <td>Siamese</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table><br>
+    </div>
+
+    <a href="https://iheartcats.com/7-tips-for-raising-a-well-adjusted-kitten/">Tips on raising healthy cats from the start</a><br><br>
+
+    <div>
+      <h4>Foods I Use</h4>
+        <ul>
+          <li>Deli Cat</li>
+          <li>Fancy Feast</li>
+          <li>Purina Cat Choe</li>
+        </ul>
+    </div>
+
+    <h3>Please take this short survey</h3>
+    <form action = "">
+
+      <label for = "email">Email:</label>
+      <input type = "text" id = "email" name = "email"><br>
+
+      <input type = "radio" name = "survey" value = "Yes" checked> Yes, please send me lots of emails
+      <input type = "radio" name = "survey" value = "No">No, please do not send me any emails<br>
+
+      <p>How did you hear about us?</p>
+      <label for = "facebook">Facebook</label>
+      <input type = "checkbox" id = "facebook" name = "hear" value = "facebook"><br>
+      <label for = "newspaper">Newspaper</label>
+      <input type = "checkbox" id = "newspaper" name = "hear" value = "newspaper"><br>
+      <label for = "referral">Referral</label>
+      <input type = "checkbox" id = "referral" name = "hear" value = "referral"><br><br>
+
+      <input type = "submit" value = "Submit">
+    </form>
+
+  </body>
+</html>
